@@ -1,17 +1,18 @@
 ﻿// See https://aka.ms/new-console-template for more information
-/*Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
 
+Console.WriteLine("Informe Seu Nome:");
 var nome = Console.ReadLine();
 
 Console.WriteLine("Hello," + nome);
 Console.WriteLine($"Hello, {nome}");
 
-var umaString = "Jornada .NET";
+//var umaString = "Jornada .NET";
 var numeroInt = 5;
-var numeroFloat = 5.4f;
-var numeroDouble = 5.4;
-var numeroDecimal = 5.4m;
-var caractere = 'a';
+//var numeroFloat = 5.4f;
+//var numeroDouble = 5.4;
+//var numeroDecimal = 5.4m;
+//var caractere = 'a';
 var data = new DateTime(1992, 1, 1);
 var agora = DateTime.Now;
 
@@ -84,7 +85,7 @@ do{
 Console.WriteLine("Executando Com Foreach");
 foreach(var numero in numeros){
     Console.WriteLine(numero);
-}*/
+}
 
 //Estruturas de dados
 
