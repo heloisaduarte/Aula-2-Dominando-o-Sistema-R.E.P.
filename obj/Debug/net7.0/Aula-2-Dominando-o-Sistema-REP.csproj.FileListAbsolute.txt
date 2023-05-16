@@ -1,0 +1,15 @@
+D:\Projetos\Aula-2-Dominando-o-Sistema-REP\bin\Debug\net7.0\Aula-2-Dominando-o-Sistema-REP.exe
+D:\Projetos\Aula-2-Dominando-o-Sistema-REP\bin\Debug\net7.0\Aula-2-Dominando-o-Sistema-REP.deps.json
+D:\Projetos\Aula-2-Dominando-o-Sistema-REP\bin\Debug\net7.0\Aula-2-Dominando-o-Sistema-REP.runtimeconfig.json
+D:\Projetos\Aula-2-Dominando-o-Sistema-REP\bin\Debug\net7.0\Aula-2-Dominando-o-Sistema-REP.dll
+D:\Projetos\Aula-2-Dominando-o-Sistema-REP\bin\Debug\net7.0\Aula-2-Dominando-o-Sistema-REP.pdb
+D:\Projetos\Aula-2-Dominando-o-Sistema-REP\obj\Debug\net7.0\Aula-2-Dominando-o-Sistema-REP.csproj.AssemblyReference.cache
+D:\Projetos\Aula-2-Dominando-o-Sistema-REP\obj\Debug\net7.0\Aula-2-Dominando-o-Sistema-REP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Aula-2-Dominando-o-Sistema-REP\obj\Debug\net7.0\Aula-2-Dominando-o-Sistema-REP.AssemblyInfoInputs.cache
+D:\Projetos\Aula-2-Dominando-o-Sistema-REP\obj\Debug\net7.0\Aula-2-Dominando-o-Sistema-REP.AssemblyInfo.cs
+D:\Projetos\Aula-2-Dominando-o-Sistema-REP\obj\Debug\net7.0\Aula-2-Dominando-o-Sistema-REP.csproj.CoreCompileInputs.cache
+D:\Projetos\Aula-2-Dominando-o-Sistema-REP\obj\Debug\net7.0\Aula-2-Dominando-o-Sistema-REP.dll
+D:\Projetos\Aula-2-Dominando-o-Sistema-REP\obj\Debug\net7.0\refint\Aula-2-Dominando-o-Sistema-REP.dll
+D:\Projetos\Aula-2-Dominando-o-Sistema-REP\obj\Debug\net7.0\Aula-2-Dominando-o-Sistema-REP.pdb
+D:\Projetos\Aula-2-Dominando-o-Sistema-REP\obj\Debug\net7.0\Aula-2-Dominando-o-Sistema-REP.genruntimeconfig.cache
+D:\Projetos\Aula-2-Dominando-o-Sistema-REP\obj\Debug\net7.0\ref\Aula-2-Dominando-o-Sistema-REP.dll
