@@ -151,3 +151,65 @@ var dicionarioV3 = new Dictionary<int, string>();
 Console.WriteLine(dicionario[0]);
 Console.WriteLine(dicionarioV2[1]);
 Console.WriteLine(dicionarioV3[2]);
+
+//Programação Orientada a Objetos
+
+//Criando Classe
+
+var evento = new Evento(1, "Jornada .NET", "Um evento incrível", DateTime.Now, DateTime.Now.AddDays(7), "Luis Dev");
+
+var show = new Show("LuisDev" ,"Musicas A, B e C" ,1, "Jornada .NET", "Um evento incrível", DateTime.Now, DateTime.Now.AddHours(4), "Luis Dev");
+
+//Polimorfismo
+var eventos = new List<Evento>{evento, show};
+
+foreach(var item in eventos){
+    Console.WriteLine(item.GerarResumo());
+}
+
+public class Evento{
+    // construtor
+    public Evento(int id, string titulo, string descricao, DateTime dataInicio, DateTime dataFim, string organizador)
+    {
+        Id = id;
+        Titulo = titulo;
+        Descricao = descricao;
+        DataInicio = dataInicio;
+        DataFim = dataFim;
+        Organizador = organizador;
+    }
+
+    public int Id { get; private set; }
+    public string Titulo { get; private set; }
+    public string Descricao { get; private set; }     
+    public DateTime DataInicio { get; private set; }
+    public DateTime DataFim { get; private set; }
+    public string Organizador { get; private set; }
+
+    //Abstração
+    //polimorfismo
+    public virtual string GerarResumo(){
+        return $"Evento {Titulo}, {DataInicio} - {DataFim}, {Organizador}";
+    }
+}
+
+//HERANCA
+public class Show : Evento
+{
+    public Show(string artista, string tracklist, int id, string titulo, string descricao, DateTime dataInicio, DateTime dataFim, string organizador) : base(id, titulo, descricao, dataInicio, dataFim, organizador)
+    {
+        Artista = artista;
+        Tracklist = tracklist;
+    }
+
+    public string Artista { get; private set; }
+    public string Tracklist  { get; private set; }
+
+    //sobrescreve o método da classe mae
+    public override string GerarResumo()
+    {
+        var resumoBase = base.GerarResumo();
+
+        return $"{resumoBase}, {Artista}, {Tracklist}";
+    }
+}

@@ -33,14 +33,33 @@ O que é sistema R.E.P?
 				> Busca: Silgle, First, Where, Any
 				> Ordenação: OrderBy, OrderByDescending
 				> Aritméticos: Sum, Min, Max, Count
+
 	. Dicionários: Estrutura de dados Tipada, que permite armazenamento de pares chave-valor. Ela permite operações eficientes de inserção, remoção e busca através de chaves unicas (cenários "de-para")
 		
 
-- Programação Orientada a Objetos
+- Programação Orientada a Objetos: Paradigma da programação que contém caracteristicas e comportamentos
+	> Caracteristicas geralmente são chamados de atributos ou propriedades
+	> Comportamentos geralmente são chamados de métodos ou funções
 	. Abstração
+		> Esconder detalhes de implementação através daa criação de classes e métodos para armazenarem comportamentos
+		> Exemplo: Máquina de Café
 	. Herança
+		> Permitir reusabilidade de informações e comportamentos de objetos
+		> Exemplo: Pessoa, que pode ter informações e comportamentos a serem herdados por outras classes, como Funcionário e Prestador de Serviço
 	. Polimorfismo
+		> Permiti a execução de métodos de classes base por classes derivadas, onde cada uma pode especificar comportamentos específicos para esses métodos.
+		> Exemplo: Similar ao de herança, onde um método da classe base Pessoa pode ter diferentes implementações nas classes derivadas
 	. Encapsulamento
+		> Controlara visibilidade de elementos de uma classe através de modificadores de acesso
+		> Modificadores de Acesso:
+			. public: livre acesso, 
+			. protected: dentro da classe, classe derivada, 
+			. internal: dentro da classe, classe derivada e não derivada de mesmo assembly, 
+			. protected internal: dentro da classe, classe derivada de mesmo assembly e não-derivada de mesmo assembly, classes derivadas de outros assemblies,
+			. private: somente dentro da classe, 
+			. private protected: dentro da classe e classe derivada de mesmo assembly
+
+			OBS.: Classe selada: Restringir Herança (Impede que outras classes herdem dela)
 
 Configs Vs Code
 dotnet new Console - Cria uma aplicação 
