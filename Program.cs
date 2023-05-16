@@ -126,3 +126,28 @@ var matriz = new int[5]{0, 1, 2, 3 ,4};
  Console.WriteLine($"Min: {min}");
  
  //Dicionarios
+ var dicionario = new Dictionary<int, string>(){
+    {0, "zero"},
+    {1, "um"},
+    {2, "dois"},
+    {3, "três"},
+    {4, "quatro"},
+ };
+var dicionarioV2 = new Dictionary<int, string>{
+    [0] = "zero",   
+    [1] = "um",  
+    [2] = "dois",  
+    [3] = "três",  
+    [4] = "quatro"  
+};
+
+var dicionarioV3 = new Dictionary<int, string>();
+    dicionarioV3.Add(0, "zero");
+    dicionarioV3.Add(1, "um");
+    dicionarioV3.Add(2, "dois");
+    dicionarioV3.Add(3, "tres");
+    dicionarioV3.Add(4, "quatro");
+
+Console.WriteLine(dicionario[0]);
+Console.WriteLine(dicionarioV2[1]);
+Console.WriteLine(dicionarioV3[2]);
