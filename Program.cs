@@ -34,6 +34,9 @@ if(opcao == "1"){
     Console.WriteLine("Opção inválida");
 }
 
+// ternário
+var opcaoE3 = opcao =="3"? "Sim" : "Não";
+
 Console.WriteLine("Com Switch");
 switch(opcao){
     case "1" :
