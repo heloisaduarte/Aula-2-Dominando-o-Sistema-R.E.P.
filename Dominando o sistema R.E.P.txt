@@ -1,0 +1,47 @@
+	Dominando o sistema R.E.P
+
+O que é sistema R.E.P?
+
+- Recursos Básicos
+	. Variáveis e tipos de dados
+		> Variáveis podem armazenar valores de um tipo especificado
+		> Existes duas categorias de tipos de dados em C#
+			. Tipos de Valor: Cada variável tem sua própria cópia de dados, e uma operação que afete uma variável não afeta a outra.
+			. Exemplos: short, int, long, float, double, decimal, bool, enum
+			(Entre float, double e decimal, vai depender daa necessidade de precisão, memória e performace)
+
+			. Tipos de Referência: Armazenam referências a seus objetos. Nele, duas variáveis podem referenciar o mesmo objeto, e operações em uma variável afetam o objeto referenciado por elas.
+			. Exemplos: string, classe, interface, matriz
+
+	. Estruturas de Condição
+		> Permitem executar um bloco de códgo baseado no valor de expressões, que podem ser true ou false(valor booleano)
+			.if > else if > else
+			. switch
+
+	. Estruturas de Repetição
+		> Permitem executar um bloco de código múltiplas vezes. São amplamente utilizadas e diversos cenários, como percorrer uma lista ou matriz e realizar uma ação específica
+			.for (inicializador; condição; iterador)
+			. while
+			.do..while
+			.foreach
+
+- Estrutura de Dados
+	. Matrizes e Listas
+		> Matrizes: Estrutura dedados tipada, com especificaçãao de tamanho em sua inicialização, com acesso por índice
+		> Listas: Estrutura de dados tipada, com tamanho dinâmico, com algumas operações específicas adicionais
+			. LINQ: Language-Integrated Query, é uma sintaxe de consultas em coleções .NET estendo suas capacidades
+				> Busca: Silgle, First, Where, Any
+				> Ordenação: OrderBy, OrderByDescending
+				> Aritméticos: Sum, Min, Max, Count
+	. Dicionários: Estrutura de dados Tipada, que permite armazenamento de pares chave-valor. Ela permite operações eficientes de inserção, remoção e busca através de chaves unicas (cenários "de-para")
+		
+
+- Programação Orientada a Objetos
+	. Abstração
+	. Herança
+	. Polimorfismo
+	. Encapsulamento
+
+Configs Vs Code
+dotnet new Console - Cria uma aplicação 
+dotnet new list - mostra a lista de projetos que podem ser criados

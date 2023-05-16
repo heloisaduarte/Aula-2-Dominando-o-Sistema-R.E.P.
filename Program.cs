@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+/*Console.WriteLine("Hello, World!");
 
 var nome = Console.ReadLine();
 
@@ -84,4 +84,45 @@ do{
 Console.WriteLine("Executando Com Foreach");
 foreach(var numero in numeros){
     Console.WriteLine(numero);
-}
+}*/
+
+//Estruturas de dados
+
+//Matrizes e Listas
+
+var matriz = new int[5]{0, 1, 2, 3 ,4};
+
+ var matrizV2 = new int[5];
+
+ matrizV2[0] = 0;
+ matrizV2[1] = 1;
+ matrizV2[2] = 2;
+ matrizV2[3] = 3;
+ matrizV2[4] = 4;
+
+ Console.WriteLine(matrizV2[3]);
+
+ var lista = new List<int>{0, 1, 2, 3 ,4};
+ var listaV2 = new List<int>();
+ listaV2.Add(0);
+ listaV2.Add(1);
+ listaV2.Add(2);
+ listaV2.Add(3);
+ listaV2.Add(4);
+
+ var maiorQue2 = lista.Where(n => n > 2);
+
+ foreach(var numero in maiorQue2){
+    Console.WriteLine(numero);
+ }
+ var soma = lista.Sum();
+ var media = lista.Average();
+ var max = lista.Max();
+ var min = lista.Min();
+
+ Console.WriteLine($"Soma: {soma}");
+ Console.WriteLine($"Media: {media}");
+ Console.WriteLine($"Max: {max}");
+ Console.WriteLine($"Min: {min}");
+ 
+ //Dicionarios
