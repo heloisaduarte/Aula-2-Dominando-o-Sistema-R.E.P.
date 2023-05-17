@@ -38,6 +38,7 @@ O que é sistema R.E.P?
 
 - Programação Orientada a Objetos: Paradigma da programação que contém caracteristicas e comportamentos
 	> Caracteristicas geralmente são chamados de atributos ou propriedades
+	
 	> Comportamentos geralmente são chamados de métodos ou funções
 	
 	. Abstração
@@ -62,8 +63,8 @@ O que é sistema R.E.P?
 			. private: somente dentro da classe, 
 			. private protected: dentro da classe e classe derivada de mesmo assembly
 
-			OBS.: Classe selada: Restringir Herança (Impede que outras classes herdem dela)
+OBS.: Classe selada: Restringir Herança (Impede que outras classes herdem dela)
 
-      Configs Vs Code
-      dotnet new Console - Cria uma aplicação 
-      dotnet new list - mostra a lista de projetos que podem ser criados
+Configs Vs Code
+dotnet new Console - Cria uma aplicação 
+dotnet new list - mostra a lista de projetos que podem ser criados
